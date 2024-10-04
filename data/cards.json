@@ -1,29 +1,46 @@
 [
     {
-        "name": "chili"
+        "image": "../images/aardwark.jpg",
+        "name": "Aardwark"
     },
     {
-        "name": "grapes"
+        "image": "../images/AGS.jpg",
+        "name": "AGS"
     },
     {
-        "name": "lemon"
+        "image": "../images/ChurchCroc",
+        "name": "Churchill Crocodille"
     },
     {
-        "name": "orange"
+        "image": "../images/G6.jpg",
+        "name": "G6 Rhino"
     },
     {
-        "name": "pineapple"
+        "image": "../images/m-64.jpg",
+        "name": "M-64"
     },
     {
-        "name": "strawberry"
+        "image": "../images/mig-23ml.jpg",
+        "name": "MiG-23ML"
     },
     {
-        "name": "tomato"
+        "image": "../images/orosz bias.jpg",
+        "name": "Orosz bias"
     },
     {
-        "name": "watermelon"
+        "image": "../images/T90m.jpg",
+        "name": "T-90M"
     },
     {
-        "name": "cherries"
+        "image": "../images/ZLT-11.jpg",
+        "name": "ZLT-11"
+    },
+    {
+        "image": "../images/type 93.jpg",
+        "name": "Type 93"
+    },
+    {
+        "image": "../images/leopard2PL.jpg",
+        "name": "Leopard 2 PL"
     }
 ]

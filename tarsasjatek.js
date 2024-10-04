@@ -1,4 +1,4 @@
-const gridContainer = document.querySelector(".gridContainer");
+const gridContainer = document.querySelector(".grid-container");
 let kartyak = [];
 let elsoKartya, masodikKartya;
 let lockBoard = false; //Ezzel fogjok összemérni a két kártyát
@@ -7,7 +7,7 @@ let score = 0;
 document.querySelector(".score").textContent = score;
 
 fetch("./data/cards.json")
-    .then((res) => res.json)
+    .then((res) => res.json())
     .then((data) => {
         kartyak = [...data,...data];
         keveres();
@@ -20,6 +20,7 @@ function keveres(){
     ideiglenesErtek;
     while(currentIndex !==0){
         randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
         ideiglenesErtek = kartyak[currentIndex];
         kartyak[currentIndex] = kartyak[randomIndex];
         kartyak[randomIndex] = ideiglenesErtek;
