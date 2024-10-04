@@ -8,7 +8,7 @@
         "name": "AGS"
     },
     {
-        "image": "../images/ChurchCroc",
+        "image": "../images/ChurchCroc.jpg",
         "name": "Churchill Crocodille"
     },
     {
@@ -24,7 +24,7 @@
         "name": "MiG-23ML"
     },
     {
-        "image": "../images/orosz bias.jpg",
+        "image": "../images/orosz-bias.jpg",
         "name": "Orosz bias"
     },
     {
@@ -34,13 +34,5 @@
     {
         "image": "../images/ZLT-11.jpg",
         "name": "ZLT-11"
-    },
-    {
-        "image": "../images/type 93.jpg",
-        "name": "Type 93"
-    },
-    {
-        "image": "../images/leopard2PL.jpg",
-        "name": "Leopard 2 PL"
     }
 ]
